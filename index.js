@@ -6,7 +6,7 @@ const port = process.env.PORT || 3000; // 8080
 const app = express();
 
 app.get("/", (req, res) => {
-    res.send("Hello World");
+    res.send("Hello ECR ECS DEMO!");
 });
 
 app.get("/health", (req, res) => {
